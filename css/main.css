@@ -60,3 +60,20 @@ header {
   text-transform: uppercase;
   line-height: 24px;
 }
+.aside-home {
+  padding: calc(var(--dp) * 8) 0 calc(var(--dp) * 6);
+}
+.aside-home#userComment {
+  background: var(--f1c);
+  color: #fff;
+}
+.aside-home#userComment img {
+  width: calc(var(--dp) * 8);
+}
+.__userImage {
+  gap: var(--dp);
+}
+.aside-home#userComment .container {
+  position: relative;
+  z-index: 2;
+}
