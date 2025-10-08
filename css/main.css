@@ -77,3 +77,33 @@ header {
   position: relative;
   z-index: 2;
 }
+footer {
+  padding: calc(var(--dp) * 4) 0 calc(var(--dp) * 3);
+}
+.aside-home#userComment:after {
+  z-index: 0;
+  content: "\201C";
+  align-content: center;
+  text-align: center;
+  font-size: 128px;
+  color: #0003;
+}
+#userComment h2 {
+  margin-bottom: calc(var(--dp) * 1.5);
+}
+#userComment .container > p {
+  font-size: 24px;
+  margin-bottom: calc(var(--dp) * 2.5);
+}
+.__userReview {
+  gap: calc(var(--dp) * 2);
+}
+.__userReview > div {
+  width: calc((100% - var(--dp) * 4) / 3);
+}
+.__userReview p {
+  line-height: 1.25;
+  letter-spacing: .25px;
+  font-size: 18px;
+  margin-bottom: calc(var(--dp) * 2);
+}
