@@ -7,7 +7,8 @@ body {
 nav {
   background: #fff;
   padding: var(--dp) 0;
-  box-shadow: 0 2px 2px #0001
+  box-shadow: 0 2px 2px #0001;
+  z-index: 10;
 }
 nav a {
   line-height: 48px;
