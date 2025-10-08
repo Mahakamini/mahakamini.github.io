@@ -1,3 +1,6 @@
 /*
 Main
 */
+body {
+  padding-top: calc(var(--dp) * 8);
+}
