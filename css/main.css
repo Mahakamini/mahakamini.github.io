@@ -4,3 +4,31 @@ Main
 body {
   padding-top: calc(var(--dp) * 8);
 }
+nav {
+  background: #fff;
+  padding: var(--dp) 0;
+  box-shadow: 0 2px 2px #0001
+}
+nav a {
+  line-height: 48px;
+  color: var(--f2c);
+}
+nav .container {
+  gap: calc(var(--dp) * 3);
+}
+nav .navbar-brand {
+  width: calc(var(--dp) * 24);
+  gap: var(--dp);
+}
+.navbar-brand a[href] {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .5px;
+  width: calc(100% - var(--dp) * 7);
+}
+.navbar-menu {
+  width: calc(100% - var(--dp) * 27);
+  gap: var(--dp);
+  font-size: 14px;
+  justify-content: flex-end;
+}
