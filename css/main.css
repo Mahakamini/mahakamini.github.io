@@ -107,3 +107,25 @@ footer {
   font-size: 18px;
   margin-bottom: calc(var(--dp) * 2);
 }
+.aside-home#apps ul li {
+  width: calc(var(--dp) * 26);
+  background: #eee;
+  padding: var(--dp);
+  border-radius: calc(var(--dp) * 3.5);
+}
+.aside-home#apps .__iconApps {
+  background: #fff;
+  width: calc(var(--dp) * 24);
+  height: calc(var(--dp) * 24);
+  border-radius: calc(var(--dp) * 2.5);
+}
+.__noThumb {
+  font-weight: 600;
+  font-size: 56px;
+  color: #eee;
+}
+.aside-home#apps ul h2 {
+  font-size: 16px;
+  font-weight: 400;
+  padding: var(--dp);
+}
