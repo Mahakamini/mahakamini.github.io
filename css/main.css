@@ -129,3 +129,25 @@ footer {
   font-weight: 400;
   padding: var(--dp);
 }
+.__leftAside,
+.__rightAside {
+  width: calc(50% - var(--dp) * 1.5);
+}
+.__asideDuo {
+  gap: calc(var(--dp) * 3);
+}
+.__leftAside img {
+  width: calc(var(--dp) * 30);
+  box-shadow: 0 0 2px 2px #0001;
+  border-radius: calc(var(--dp) * 3);
+}
+.footer-pages ul {
+  gap: calc(var(--dp) * 1.5);
+  font-size: 14px;
+}
+.footer-pages ul a {
+  color: var(--f2c);
+}
+.footer-pages ul a:hover {
+  text-decoration: underline;
+}
