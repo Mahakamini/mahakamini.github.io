@@ -151,3 +151,19 @@ footer {
 .footer-pages ul a:hover {
   text-decoration: underline;
 }
+.__rightAside h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: var(--dp);
+}
+.__rightAside p {
+  font-size: 24px;
+}
+.__rightAside ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+.__rightAside ul li {
+  font-size: 18px;
+  margin-top: calc(var(--dp) * 1.5);
+}
